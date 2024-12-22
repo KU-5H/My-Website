@@ -4,35 +4,23 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo" alt="React logo" />
-        </a>
-      </div>
-      <h1 className='font-sans text-5xl leading-4 font-bold'>I'm Kush Patel!</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+    <div className="font-sans text-white bg-gray-900 min-h-screen flex flex-col items-center justify-center text-center px-4">
+      <div className="max-w-screen-md mx-auto p-8 rounded-lg bg-glass">
+        <h1 className="text-4xl md:text-6xl leading-tight font-bold mb-4">Hi! I'm Kush Patel! 👋🏾</h1>
+        <p className="max-w-lg pt-8 text-lg mx-auto">
+          I'm a Second/Third year Computer Science student at Toronto Metropolitian University, though nowadays that's nothing special 😂.
+          Anyways, I'm super passionate about all things coding (and gaming 🎮), and I'm always looking for new opportunities to learn and grow.
+          This is just a nice place to put all of my projects and stuff, so feel free to look around!
+        </p>
+        <p className="max-w-lg text-lg pt-3 mx-auto">
+          Some other notable things ........ nothing really lol. Currently I'm working as a Software Developer at Kijiji, and 
+          I try and make some cool projects from time to time. 
         </p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    </div>
+  );
 }
-
-
 
 
 export default App
