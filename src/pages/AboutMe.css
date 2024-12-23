@@ -7,7 +7,7 @@
   transition: filter 300ms;
 }
 .logo:hover {
-  filter: drop-shadow(0 0 1em #464ff8aa);
+  filter: drop-shadow(0 0 1em #ffffff);
 }
 
 .spin {
@@ -34,6 +34,6 @@
 }
 
 .bg-glass:hover {
-  background: rgba(255, 255, 255, 0.034);
-  border-color: rgba(255, 255, 255, 0.4);
+  background: rgba(68, 68, 68, 0.377);
+  border-color: rgba(255, 255, 255, 0.39);
 }
