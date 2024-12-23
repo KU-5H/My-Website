@@ -3,7 +3,7 @@ import { useState, useRef } from 'react';
 import githubLogo from '../assets/github-mark-white.svg';
 import linkedinLogo from '../assets/linkedin.svg';
 import memoji from '../assets/memoji.png';
-import '../App.css';
+import './AboutMe.css';
 import NavBar from '../components/NavBar';
 
 const AboutMe = () => {
@@ -59,7 +59,7 @@ const AboutMe = () => {
           </div>
         </div>
         <div className="order-3 md:order-2 md:col-span-1 p-8 rounded-lg bg-glass">
-          <h1 className="text-4xl md:text-6xl leading-tight font-bold mb-4">Hi! I'm Kush Patel! 👋🏾</h1>
+          <h1 className="text-4xl md:text-6xl leading-tight font-bold mb-4">Hi! I'm Kush Patel! 👋🏽</h1>
           <p className="max-w-lg pt-4 text-lg mx-auto">
             I'm a Second/Third year Computer Science student at Toronto Metropolitian University, though nowadays that's nothing special 😂.
             Anyways, I'm super passionate about all things coding (and gaming 🎮), and I'm always looking for new opportunities to learn and grow.
@@ -70,7 +70,7 @@ const AboutMe = () => {
             I try and make some cool projects from time to time. 
           </p>
         </div>
-        <div id="navbar" className="order-2 md:order-3 flex flex-col items-center p-8 rounded-lg">
+        <div id="navbar" className="order-2 md:order-3 flex flex-col items-center p-8 rounded-lg bg-glass">
           <NavBar />
         </div>
         <div id="Tech Stack" className="order-5 md:order-5 col-span-1 md:col-span-2 p-8 w-full rounded-lg bg-glass mt-4">
