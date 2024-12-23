@@ -70,22 +70,22 @@ const ProfileAndLinks = () => {
   };
 
   return (
-    <div className="flex flex-col items-center space-y-4 max-w-xs">
-      <div className="w-32 h-32 rounded-lg bg-glass flex items-center justify-center">
+    <div className="flex flex-col items-center space-y-4">
+      <div className="w-40 h-40 rounded-lg bg-glass flex items-center justify-center">
         <img src={memoji} alt="Profile Picture" className="logo" />
       </div>
-      <div className="h-10 md:h-full p-4 bg-glass rounded-lg flex md:flex-col flex-row items-center gap-6 ml-auto">
+      <div className="h-10 md:h-auto p-4 bg-glass rounded-lg flex md:flex-col flex-row items-center gap-6 md:ml-auto">
         <a href="https://github.com/KU-5H" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400">
-          <img src={githubLogo} alt="Github Logo" className={`h-8 md:h-10 logo ${isGithubSpinning ? 'spin' : ''}`} onMouseEnter={handleGithubMouseEnter} onMouseLeave={handleGithubMouseLeave}/>
+          <img src={githubLogo} alt="Github Logo" className={`h-8 md:h-8 logo ${isGithubSpinning ? 'spin' : ''}`} onMouseEnter={handleGithubMouseEnter} onMouseLeave={handleGithubMouseLeave}/>
         </a>
         <a href="https://www.linkedin.com/in/ku5h-p4tel/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400">
-          <img src={linkedinLogo} alt="Linkedin Logo" className={`h-8 md:h-12 logo ${isLinkedinSpinning ? 'spin' : ''}`} onMouseEnter={handleLinkedinMouseEnter} onMouseLeave={handleLinkedinMouseLeave} />
+          <img src={linkedinLogo} alt="Linkedin Logo" className={`h-8 md:h-10 logo ${isLinkedinSpinning ? 'spin' : ''}`} onMouseEnter={handleLinkedinMouseEnter} onMouseLeave={handleLinkedinMouseLeave} />
         </a>
         <a href="https://www.instagram.com/ku5hp4tel/profilecard/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400">
-          <img src={instagramLogo} alt="Instagram Logo" className={`h-8 md:h-10 logo ${isInstagramSpinning ? 'spin' : ''}`} onMouseEnter={handleInstagramMouseEnter} onMouseLeave={handleInstagramMouseLeave} />
+          <img src={instagramLogo} alt="Instagram Logo" className={`h-8 md:h-8 logo ${isInstagramSpinning ? 'spin' : ''}`} onMouseEnter={handleInstagramMouseEnter} onMouseLeave={handleInstagramMouseLeave} />
         </a>
         <a href="mailto:kushpatel76@yahoo.com" className="text-blue-500 hover:text-blue-400">
-          <img src={emailLogo} alt="Email Logo" className={`h-8 md:h-12 logo ${isEmailSpinning ? 'spin' : ''}`} onMouseEnter={handleEmailMouseEnter} onMouseLeave={handleEmailMouseLeave} />
+          <img src={emailLogo} alt="Email Logo" className={`h-8 md:h-10 logo ${isEmailSpinning ? 'spin' : ''}`} onMouseEnter={handleEmailMouseEnter} onMouseLeave={handleEmailMouseLeave} />
         </a>
       </div>
     </div>
