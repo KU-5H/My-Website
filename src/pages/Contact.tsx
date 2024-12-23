@@ -12,7 +12,7 @@ const Contact = () => {
         <h1 className="text-4xl md:text-6xl leading-tight font-bold mb-4">Contact Me</h1>
         <p className="text-lg">This is the Contact Me section.</p>
         </div>
-        <div id="navbar" className="order-2 md:order-3 flex flex-col items-center p-8 rounded-lg bg-glass">
+        <div className="order-2 md:order-3 flex flex-col items-center">
           <NavBar />
         </div>
         <div className="order-4 md:order-4 col-span-1 md:col-span-2">

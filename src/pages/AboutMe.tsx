@@ -5,7 +5,6 @@ import ProfilePicture from '../components/ProfileAndLinks';
 import TechStack from '../components/TechStack';
 
 const AboutMe = () => {
-
   return (
     <div className="font-sans text-white bg-gray-900 min-h-screen flex flex-col items-center justify-center text-center px-4">
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 gap-4 p-8 md:grid-cols-[auto,1fr,auto]">
@@ -22,7 +21,7 @@ const AboutMe = () => {
             I try and make some cool projects from time to time. 
           </p>
         </div>
-        <div id="navbar" className="order-2 md:order-3 flex flex-col items-center p-8 rounded-lg bg-glass">
+        <div className="order-2 md:order-3 flex flex-col items-center">
           <NavBar />
         </div>
         <TechStack />

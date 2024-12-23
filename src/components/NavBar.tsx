@@ -12,7 +12,7 @@ const NavBar = () => {
   };
 
   return (
-    <nav className="h-full flex flex-col justify-center items-center space-y-4 rounded-lg p-4">
+    <nav className="order-2 md:order-3 h-auto flex flex-col justify-center items-center space-y-4 rounded-lg p-8 bg-glass">
       <div className="flex flex-col items-center space-y-4">
         <Link to="/about" className={`${getLinkClass('/about')} text-white font-bold hover:text-blue-400 transition-colors duration-300 font-sans text-2xl`}>
           About Me
