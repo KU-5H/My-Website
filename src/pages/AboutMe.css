@@ -25,15 +25,16 @@
 
 /* Custom glass effect */
 .bg-glass {
-  background: rgba(255, 255, 255, 0.089);
-  backdrop-filter: saturate(180%) blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  box-shadow: 0 4px 6px rgba(255, 255, 255, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1); /* Frosted drop shadow */
+  background: rgba(187, 187, 187, 0.2);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
   transition: background-color 300ms, border-color 300ms, box-shadow 300ms;
 }
 
 .bg-glass:hover {
-  background: rgba(68, 68, 68, 0.377);
+  background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.39);
 }
