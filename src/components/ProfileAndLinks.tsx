@@ -3,8 +3,7 @@ import memoji from '../assets/memoji.png';
 import githubLogo from '../assets/github-mark-white.svg';
 import linkedinLogo from '../assets/linkedin.svg';
 import emailLogo from '../assets/email.svg';
-import instagramLogo from '../assets/instagram.svg'; // Add your Instagram icon here
-import '../App.css';
+import instagramLogo from '../assets/instagram.svg';
 
 const ProfileAndLinks = () => {
   const [isGithubSpinning, setIsGithubSpinning] = useState(false);

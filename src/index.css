@@ -2,3 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    background: linear-gradient(135deg, #254ab9 0%, #01041f 50%, #8c38b3 100%);
+    background-size: 400% 400%;
+    animation: gradient-animation 15s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}

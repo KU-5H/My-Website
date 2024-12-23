@@ -15,7 +15,7 @@
   }
   
   .nav-link:hover::after {
-    background-color: #4a5568; /* Tailwind's gray-600 */
+    background-color: #ffffff; /* Tailwind's gray-600 */
     transform: scaleX(1);
   }
   
