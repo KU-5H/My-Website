@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navText {
+    transition: color 300ms;
+}
+.navText:hover {
+    color: #d62e2e;
+}
