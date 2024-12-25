@@ -18,8 +18,6 @@ const TechStack = () => {
   const [randomQuote, setRandomQuote] = useState(getRandomQuote());
   const [randomPersonalQuote, setRandomPersonalQuote] = useState(getRandomPersonalQuote())
 
-  
-
   const [text] = useTypewriter({
     words: [location.pathname === '/' ? randomQuote : randomPersonalQuote],
     loop: 0,
