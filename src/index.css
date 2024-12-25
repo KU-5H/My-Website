@@ -3,9 +3,17 @@
 @tailwind utilities;
 
 body {
-    background: linear-gradient(135deg, #2596be 0%, #110654 50%, #c60d6b 100%);
-    background-size: 400% 400%;
-    animation: gradient-animation 15s ease infinite;
+  background: linear-gradient(135deg, #2596be 0%, #c60d6b 25%, #110654 50%, #2596be 75%, #c60d6b 100%);
+  background-size: 400% 400%;
+  animation: gradient-animation 30s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% { background-position: 0% 50%; }
+  25% { background-position: 50% 50%; }
+  50% { background-position: 100% 50%; }
+  75% { background-position: 50% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 .logo {
@@ -42,11 +50,4 @@ body {
 .bg-glass:hover {
   background: rgba(255, 255, 255, 0.2);
   border-color: rgba(255, 255, 255, 0.39);
-}
-
-
-@keyframes gradient-animation {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
 }

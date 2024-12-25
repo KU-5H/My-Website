@@ -1,5 +1,4 @@
 import React from 'react';
-import './AboutMe.css';
 import NavBar from '../components/NavBar';
 import ProfilePicture from '../components/ProfileAndLinks';
 import TechStack from '../components/TechStack';
