@@ -16,26 +16,21 @@ const TechStack = () => {
     setRandomQuote(getRandomQuote());
   }, [location.pathname]);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setRandomQuote(getRandomQuote());
-    }, 8000);
-
-    return () => clearInterval(interval);
-  }, []);
-
   const [text] = useTypewriter({
     words: [randomQuote],
     loop: 0,
     typeSpeed: 50,
     deleteSpeed: 50,
     delaySpeed: 2000,
+    onDelete: () => {
+      setRandomQuote(getRandomQuote());
+    }
   });
 
   return (
     <div id="Tech Stack" className="order-5 md:order-5 col-span-1 md:col-span-3 p-4 w-full rounded-lg bg-glass mt-4">
       {location.pathname === '/about' ? (
-        <div className="text-md md:text-xl font-bold text-center whitespace-pre-wrap break-words max-w-3xl mx-auto">
+        <div className="text-md md:text-xl font-bold text-center whitespace-pre-wrap break-words max-w-4xl mx-auto">
           <span>{text}</span>
           <Cursor />
         </div>
