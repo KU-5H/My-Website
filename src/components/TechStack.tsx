@@ -25,7 +25,7 @@ const TechStack = () => {
   }, []);
 
   const [text] = useTypewriter({
-    words: ['"Software is like entropy: It is difficult to grasp, weighs nothing, and obeys the second law of thermodynamics; i.e., it always increases."'],
+    words: [randomQuote],
     loop: 0,
     typeSpeed: 50,
     deleteSpeed: 50,
