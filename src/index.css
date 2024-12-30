@@ -52,3 +52,27 @@ body {
   border-color: rgba(255, 255, 255, 0.39);
 }
 
+@keyframes swipe {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.animate-swipe {
+  display: flex;
+  animation: swipe 15000ms linear infinite backwards;
+}
+
+.image2 {
+  max-width: 5rem;
+  height: 5rem;
+  padding: 0 15px;
+  object-fit: contain;
+}
+
+.image2:last-of-type {
+  padding-left: 0;
+}

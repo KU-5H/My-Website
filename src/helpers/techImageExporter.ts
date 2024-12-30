@@ -1,7 +1,8 @@
 export const images = [
     {
         src: 'https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png',
-        name: 'C'
+        name: 'C',
+        href: 'https://en.wikipedia.org/wiki/C_(programming_language)'
     },
     {
         src: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg',

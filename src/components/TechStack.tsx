@@ -1,9 +1,8 @@
-import React, { useState, useEffect} from 'react';
+import React, { useState} from 'react';
 import { useLocation } from 'react-router-dom';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { quotes } from '../helpers/quotes';
 import { personalQuotes } from '../helpers/kPatelFacts';
-import test from 'node:test';
 import { images } from '../helpers/techImageExporter';
 
 const getRandomQuote = () => {
@@ -35,7 +34,7 @@ const TechStack = () => {
   });
 
   return (
-    <div id="Tech Stack" className="order-5 md:order-5 col-span-1 md:col-span-3 p-4 w-full rounded-lg bg-glass mt-4">
+    <div id="Tech Stack" className="order-5 md:order-5 col-span-1 md:col-span-3 p-4 w-full rounded-lg bg-glass mt-4 flex overflow-hidden">
       {location.pathname === '/about' || location.pathname === '/' ? (
         <div className="text-md md:text-2xl font-bold text-center whitespace-pre-wrap break-words max-w-4xl mx-auto">
           <span>{text}</span>
@@ -43,13 +42,35 @@ const TechStack = () => {
         </div>
       ) : location.pathname === '/projects' ? (
         <div>
-          <div className="flex animate-scroll space-x-4">
-            {images.map(({ src, name }, index) => (
-              <img key={index} src={src} alt={name} className="h-20 w-20 object-contain" />
-            ))}
-            {images.map(({ src, name }, index) => (
-              <img key={index + images.length} src={src} alt={name} className="h-20 w-20 object-contain" />
-            ))}
+          <div className="relative w-full flex">
+            <div className="flex animate-swipe">
+              {images.map(({ src, name, href }) => (
+                <a href={href}>
+                  <img src={src} alt={name} className="image2 logo" />
+                </a>
+              ))}
+            </div>
+            <div className="flex animate-swipe">
+              {images.map(({ src, name, href }) => (
+                <a href={href}>
+                  <img src={src} alt={name} className="image2 logo" />
+                </a>
+              ))}
+            </div>
+            <div className="flex animate-swipe">
+              {images.map(({ src, name, href }) => (
+                <a href={href}>
+                  <img src={src} alt={name} className="image2 logo" />
+                </a>
+              ))}
+            </div>
+            <div className="flex animate-swipe">
+              {images.map(({ src, name, href }) => (
+                <a href={href}>
+                  <img src={src} alt={name} className="image2 logo" />
+                </a>
+              ))}
+            </div>
           </div>
         </div>
       ) : <div>Tech Stack</div>}
@@ -59,8 +80,8 @@ const TechStack = () => {
 
 export default TechStack;
 
-/*          <div className="flex overflow-x-scroll space-x-4">
-            {techStackImages.map((image, index) => (
-              <img key={index} src={image} alt={`Tech Stack ${index}`} className="h-20 w-20 object-contain" />
-            ))}
-          </div> */
+/* 
+        <a href="mailto:kushpatel76@yahoo.com" className="text-blue-500 hover:text-blue-400">
+          <img src={emailLogo} alt="Email Logo" className={`h-8 md:h-10 logo ${isEmailSpinning ? 'spin' : ''}`} onMouseEnter={handleEmailMouseEnter} onMouseLeave={handleEmailMouseLeave} />
+        </a>
+*/
