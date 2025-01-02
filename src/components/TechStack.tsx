@@ -43,8 +43,8 @@ const TechStack = () => {
           </div>
         </div>
       ) : (
-        <div id="Tech Stack" className="order-5 md:order-5 col-span-1 md:col-span-3 p-4 w-full rounded-lg bg-glass mt-4 flex overflow-hidden">
-          Tech Stack
+        <div id="Tech Stack" className="p-4 w-full rounded-lg bg-glass mt-4 flextext-md md:text-2xl font-bold text-center whitespace-pre-wrap break-words mx-auto">
+          Have any Questions? Inquiries? Feel free to reach out and we can have a chat! 📧
         </div>
       )}
     </div>
