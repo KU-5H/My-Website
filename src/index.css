@@ -68,11 +68,19 @@ body {
 
 .image2 {
   max-width: 5rem;
-  height: 5rem;
-  padding: 0 15px;
+  height: 3rem;
+  padding: 0 20px;
   object-fit: contain;
 }
 
 .image2:last-of-type {
   padding-left: 0;
+}
+
+@media (max-width: 768px) {
+  .image2 {
+    max-width: 3rem;
+    height: 3rem;
+    padding: 0 10px;
+  }
 }
