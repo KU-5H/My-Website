@@ -9,7 +9,7 @@ const Home = () => {
         <div className="max-w-screen-xl mx-auto grid grid-cols-1 gap-4 p-8 md:grid-cols-[1fr,3.5fr,1fr] md:grid-rows-[auto,1fr,auto]">
           <ProfilePicture />
           <div className="order-3 md:order-2 md:col-span-1 p-8 rounded-lg bg-glass">
-            <h1 className="text-4xl md:text-6xl leading-tight font-bold mb-4">Hi! I'm Kush Patel! 👋🏽</h1>
+            <h1 className="text-4xl md:text-5xl leading-tight font-bold mb-4">Hi! I'm Kush Patel! 👋🏽</h1>
             <p className="max-w-lg pt-4 text-lg mx-auto">
               Hey! My names Kush Patel, and I'm a wannabe Software Developer from Toronto, Canada. 
               I occasionally make some cool projects, whenever I'm not busy with school, work, or gaming 🎮.  

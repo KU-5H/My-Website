@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import Scroller from '../helpers/Scroller';
-import RandomQuotes from '../helpers/RandomQuotes';
+import Scroller from './Scroller';
+import RandomQuotes from './RandomQuotes';
 import { techLanguages, techTools } from '../helpers/techImageExporter';
 
 const TechStack = () => {
@@ -25,7 +25,7 @@ const TechStack = () => {
           <div
             id="Tech Stack"
             className="p-4 w-full rounded-lg bg-glass mt-4 flex overflow-hidden"
-            onMouseEnter={() => handleMouseEnter('Languages and Frameworks')}
+            onMouseEnter={() => handleMouseEnter('Languages and Frameworks I\'ve worked with')}
             onMouseLeave={handleMouseLeave}
           >
             <Scroller images={techLanguages} />
@@ -33,7 +33,7 @@ const TechStack = () => {
           <div
             id="Tech Stack"
             className="p-4 w-full rounded-lg bg-glass mt-4 flex overflow-hidden"
-            onMouseEnter={() => handleMouseEnter('Tools and Technologies')}
+            onMouseEnter={() => handleMouseEnter('Tools and Technologies I\'ve worked with')}
             onMouseLeave={handleMouseLeave}
           >
             <Scroller images={techTools} />

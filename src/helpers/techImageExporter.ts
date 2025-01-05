@@ -173,11 +173,6 @@ export const techTools = [
         href: 'https://www.apple.com/macos/'
     },
     {
-        src: 'https://upload.wikimedia.org/wikipedia/commons/8/87/Windows_logo_-_2021.svg',
-        name: 'Windows',
-        href: 'https://www.microsoft.com/en-us/windows'
-    },
-    {
         src: 'https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg',
         name: 'Jenkins',
         href: 'https://www.jenkins.io/'
@@ -196,5 +191,10 @@ export const techTools = [
         src: 'https://www.vectorlogo.zone/logos/vercel/vercel-icon.svg',
         name: 'Vercel',
         href: 'https://vercel.com/'
+    },
+    {
+        src: 'https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg',
+        name: 'Postman',
+        href: 'https://www.postman.com/'
     }
 ];
