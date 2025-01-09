@@ -3,7 +3,10 @@ import NavBar from '../components/NavBar';
 import ProfilePicture from '../components/ProfileAndLinks';
 import TechStack from '../components/TechStack';
 import ProjectStack from '../components/ProjectStack';
+import SelectedProjects from '../components/SelectedProjects';
 import {myWebsiteImages, ecoDexImages, clubhubImages, textbasedAudioImages} from '../helpers/projectStackImageExporter';
+import { myWebSiteText, ecoDexText, clubHubText, textBasedAudioText } from '../helpers/projectText';
+import { clubHubLogo, ecoDexLogo, myWebsiteLogo, textBasedAudioLogo } from '../helpers/projectLogos';
 
 const Projects = () => {
   const [selectedProject, setSelectedProject] = useState('My-Website');
@@ -11,13 +14,13 @@ const Projects = () => {
   const renderProjectDetails = () => {
     switch (selectedProject) {
       case 'My-Website':
-        return <div> <ProjectStack images={myWebsiteImages}/> </div>
+        return <div> <SelectedProjects images={myWebsiteImages} selectedText={myWebSiteText} selectedLogos={myWebsiteLogo}/> </div>
       case 'EcoDex':
-        return <div> <ProjectStack images={ecoDexImages}/> </div>
+        return <div> <SelectedProjects images={ecoDexImages} selectedText={ecoDexText} selectedLogos={ecoDexLogo}/> </div>
       case 'ClubHub':
-        return <div> <ProjectStack images={clubhubImages}/> </div>
+        return <div> <SelectedProjects images={clubhubImages} selectedText={clubHubText} selectedLogos={clubHubLogo}/> </div>
       case 'Textbased-Audio':
-        return <div> <ProjectStack images={textbasedAudioImages}/> </div>
+        return <div> <SelectedProjects images={textbasedAudioImages} selectedText={textBasedAudioText} selectedLogos={textBasedAudioLogo}/> </div>
       default:
         return null;
     }
