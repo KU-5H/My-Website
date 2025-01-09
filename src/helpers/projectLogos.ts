@@ -1,7 +1,7 @@
 export const myWebsiteLogo = {
-    src: "../assets/myWebsiteLogo.png",
+    src: "https://raw.githubusercontent.com/KU-5H/My-Website/refs/heads/main/src/assets/myWebsiteLogo.png?raw=true",
     name: "My Website Logo",
-    href: "https://raw.githubusercontent.com/KU-5H/My-Website/4087f6e42fa2bd77ab7773b6b3d5b796c874db02/src/assets/myWebsiteLogo.svg",
+    href: "https://github.com/KU-5H/My-Website",
 }
 
 export const ecoDexLogo = {
@@ -17,7 +17,7 @@ export const clubHubLogo = {
 }
 
 export const textBasedAudioLogo = {
-    src: "../assets/audio-files.svg",
+    src: "https://raw.githubusercontent.com/KU-5H/My-Website/refs/heads/main/src/assets/audioLogo.png",
     name: "Text Based Audio Logo",
     href: "https://github.com/KU-5H/TextBased-Audio",
 }
