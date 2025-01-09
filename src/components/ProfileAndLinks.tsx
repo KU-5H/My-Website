@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import { useState, useRef } from 'react';
 import memoji from '../assets/memoji.png';
 import githubLogo from '../assets/github-mark-white.svg';
 import linkedinLogo from '../assets/linkedin.svg';

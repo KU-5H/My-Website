@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, {useRef } from 'react';
 import emailjs from 'emailjs-com';
 import NavBar from '../components/NavBar';
 import ProfilePicture from '../components/ProfileAndLinks';
@@ -19,10 +19,10 @@ const Contact = () => {
         form.current,
         import.meta.env.VITE_USER_ID
       )
-      .then((result) => {
+      .then(() => {
         toast.success('Message sent successfully!');
       })
-      .catch((error) => {
+      .catch(() => {
         toast.error('Failed to send message. Please try again later.');
       });
     }

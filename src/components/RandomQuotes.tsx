@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import {useState} from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
 import { quotes } from '../helpers/quotes';
 import { personalQuotes } from '../helpers/kPatelFacts';
