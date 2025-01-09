@@ -4,4 +4,4 @@ export const ecoDexText: string = "Using Javascript with Next.JS, Python with Fl
 
 export const clubHubText: string = "A club management platform designed to streamline club and group management for schools, universities and the community, designed using a React JS frontend, and a Express JS backend. Supports full user authentication, club/event creation, and event management via JWt tokens and a MongoDB database.";
 
-export const textBasedAudioText: string = "A Java-based text music player that uses Maps, Inheritance and File I/O to first import then play, delete, view, search and modify audio content.";
+export const textBasedAudioText: string = "A Java-based text music player that uses Maps, Inheritance and File I/O to first import then play, delete, view, search and modify audio content. Supports Music, Podcasts, and Audiobooks, keeping each type in their own stores and records.";

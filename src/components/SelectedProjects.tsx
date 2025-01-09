@@ -19,7 +19,7 @@ const SelectedProjects = ({ images, selectedText, selectedLogos }: SelectedProje
   return (
     <div className="space-y-4">
       <ProjectStack images={images} />
-      <div className="grid grid-cols-1 md:grid-cols-[1fr,1fr] items-center gap-4 relative rounded-lg">
+      <div className="grid grid-cols-1 md:grid-cols-[1fr,1fr] items-center gap-2 relative rounded-lg">
         <div className="text-white text-md">
           {selectedText}
         </div>
@@ -27,12 +27,12 @@ const SelectedProjects = ({ images, selectedText, selectedLogos }: SelectedProje
           <img
             src={selectedLogos.src}
             alt={selectedLogos.name}
-            className="rounded-xl logo h-min-1 h-max-2"
+            className="rounded-xl logo max-h-[200px]" // Set the max height for the image using Tailwind CSS
           />
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full flex justify-center p-4">
-        <a href={selectedLogos.href} className="nav-link font-bold">
+      <div className="relative md:absolute bottom-0 left-0 w-full flex justify-center p-0 md:p-4">
+        <a href={selectedLogos.href} className="nav-link font-bold mt-4 md:mt-1">
           Project Link
         </a>
       </div>

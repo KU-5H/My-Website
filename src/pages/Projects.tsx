@@ -37,28 +37,32 @@ const Projects = () => {
               className={`nav-link cursor-pointer ${selectedProject === 'My-Website' ? 'active' : ''}`}
               onClick={() => setSelectedProject('My-Website')}
             >
-              My-Website
+              <span className='block md:hidden'>My-Web</span>
+              <span className='hidden md:block'>My-Website</span>
             </span>
             <span className="text-white">|</span>
             <span
               className={`nav-link cursor-pointer ${selectedProject === 'EcoDex' ? 'active' : ''}`}
               onClick={() => setSelectedProject('EcoDex')}
             >
-              EcoDex
+              <span className='block md:hidden'>Dex</span>
+              <span className='hidden md:block'>EcoDex</span>
             </span>
             <span className="text-white">|</span>
             <span
               className={`nav-link cursor-pointer ${selectedProject === 'ClubHub' ? 'active' : ''}`}
               onClick={() => setSelectedProject('ClubHub')}
             >
-              ClubHub
+              <span className='block md:hidden'>Hub</span>
+              <span className='hidden md:block'>ClubHub</span>
             </span>
             <span className="text-white">|</span>
             <span
               className={`nav-link cursor-pointer ${selectedProject === 'Textbased-Audio' ? 'active' : ''}`}
               onClick={() => setSelectedProject('Textbased-Audio')}
             >
-              Textbased-Audio
+              <span className='block md:hidden'>Audio</span>
+              <span className='hidden md:block'>TextBased-Audio</span>
             </span>
           </div>
           {renderProjectDetails()}

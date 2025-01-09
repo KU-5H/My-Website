@@ -17,7 +17,7 @@ export const clubHubLogo = {
 }
 
 export const textBasedAudioLogo = {
-    src: "https://raw.githubusercontent.com/KU-5H/My-Website/refs/heads/main/src/assets/audioLogo.png",
+    src: "https://raw.githubusercontent.com/KU-5H/My-Website/refs/heads/main/src/assets/audioLogo3.png",
     name: "Text Based Audio Logo",
     href: "https://github.com/KU-5H/TextBased-Audio",
 }
