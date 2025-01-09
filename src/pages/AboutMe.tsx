@@ -10,7 +10,7 @@ const AboutMe = () => {
       <div className="max-w-screen-xl mx-auto grid grid-cols-1 gap-4 p-8 md:grid-cols-[1fr,3.5fr,1fr] md:grid-rows-[auto,1fr,auto]">
         <ProfilePicture />
         <div className="order-3 md:order-2 md:col-span-1 p-8 rounded-lg bg-glass">
-          <h1 className="text-4xl md:text-6xl leading-tight font-bold">More About Me! 🤔</h1>
+          <h1 className="text-4xl md:text-5xl leading-tight font-bold">More About Me! 🤔</h1>
           <div className="grid grid-cols-1 md:grid-cols-[2.2fr,1fr] items-center gap-4">
             <div>
               <p className="max-w-lg pt-4 text-lg mx-auto">

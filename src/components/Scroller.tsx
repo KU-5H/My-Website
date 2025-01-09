@@ -16,28 +16,28 @@ const Scroller = ({ images }: ScrollerProps) => {
             <div className="flex animate-swipe">
                 {images.map(({ src, name, href }) => (
                 <a href={href}>
-                    <img src={src} alt={name} className="image2 logo" />
+                    <img src={src} alt={name} className="scrollImages logo" />
                 </a>
                 ))}
             </div>
             <div className="flex animate-swipe">
                 {images.map(({ src, name, href }) => (
                 <a href={href}>
-                    <img src={src} alt={name} className="image2 logo" />
+                    <img src={src} alt={name} className="scrollImages logo" />
                 </a>
                 ))}
             </div>
             <div className="flex animate-swipe">
                 {images.map(({ src, name, href }) => (
                 <a href={href}>
-                    <img src={src} alt={name} className="image2 logo" />
+                    <img src={src} alt={name} className="scrollImages logo" />
                 </a>
                 ))}
             </div>
             <div className="flex animate-swipe">
                 {images.map(({ src, name, href }) => (
                 <a href={href}>
-                    <img src={src} alt={name} className="image2 logo" />
+                    <img src={src} alt={name} className="scrollImages logo" />
                 </a>
                 ))}
             </div>
