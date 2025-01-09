@@ -1,4 +1,9 @@
-# React + TypeScript + Vite
+# My Website!
+
+Will be fixing the ReadME soon, for now here is the website: https://kush-patel-website.vercel.app/
+
+
+
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
