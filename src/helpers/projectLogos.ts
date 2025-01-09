@@ -1,5 +1,5 @@
 export const myWebsiteLogo = {
-    src: "https://raw.githubusercontent.com/KU-5H/My-Website/refs/heads/main/src/assets/myWebsiteLogo2.png",
+    src: "https://raw.githubusercontent.com/KU-5H/My-Website/refs/heads/main/src/assets/myWebsiteLogo.png",
     name: "My Website Logo",
     href: "https://github.com/KU-5H/My-Website",
 }

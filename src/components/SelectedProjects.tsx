@@ -27,7 +27,7 @@ const SelectedProjects = ({ images, selectedText, selectedLogos }: SelectedProje
           <img
             src={selectedLogos.src}
             alt={selectedLogos.name}
-            className="rounded-xl logo"
+            className="rounded-xl logo h-min-1 h-max-2"
           />
         </div>
       </div>
