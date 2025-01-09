@@ -1,7 +1,7 @@
 export const myWebsiteLogo = {
     src: "../assets/myWebsiteLogo.png",
     name: "My Website Logo",
-    href: "https://github.com/KU-5H/My-Website",
+    href: "https://raw.githubusercontent.com/KU-5H/My-Website/4087f6e42fa2bd77ab7773b6b3d5b796c874db02/src/assets/myWebsiteLogo.svg",
 }
 
 export const ecoDexLogo = {
