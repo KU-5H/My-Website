@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import NavBar from '../components/NavBar';
 import ProfilePicture from '../components/ProfileAndLinks';
 import TechStack from '../components/TechStack';
-import ProjectStack from '../components/ProjectStack';
 import SelectedProjects from '../components/SelectedProjects';
 import {myWebsiteImages, ecoDexImages, clubhubImages, textbasedAudioImages} from '../helpers/projectStackImageExporter';
 import { myWebSiteText, ecoDexText, clubHubText, textBasedAudioText } from '../helpers/projectText';

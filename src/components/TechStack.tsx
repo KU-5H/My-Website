@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import Scroller from './Scroller';
 import RandomQuotes from './RandomQuotes';

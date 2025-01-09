@@ -1,4 +1,3 @@
-import React from 'react';
 import ProjectStack from './ProjectStack';
 
 interface SelectedProjectsProps {
