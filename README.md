@@ -5,18 +5,18 @@
   <p align="center">
     A platform to show off some of my work and talk more about me!
     <br />
-    <a href="https://github.com/KU-5H/My-Website/edit/main/README.md#my-website-">Website</a>
+    <a href="https://github.com/KU-5H/My-Website?tab=readme-ov-file#my-website-">Website</a>
     ·
-    <a href="https://github.com/KU-5H/My-Website/edit/main/README.md#frontend">Tech Stack</a>
+    <a href="https://github.com/KU-5H/My-Website?tab=readme-ov-file#technologies-used-">Tech Stack</a>
     ·
-    <a href="https://github.com/KU-5H/My-Website/edit/main/README.md#installation-">Installation</a>
+    <a href="https://github.com/KU-5H/My-Website?tab=readme-ov-file#installation-">Installation</a>
   </p>
 </div>
 
-## My Website [![Demo](https://img.shields.io/badge/Demo-red)](https://github.com/KU-5H/My-Website/edit/main/README.md#my-website-)
+## My Website [![Demo](https://img.shields.io/badge/Demo-red)](https://github.com/KU-5H/My-Website?tab=readme-ov-file#my-website-)
 Check out the website here! https://kush-patel-website.vercel.app/
 
-## Technologies Used [![Technologies](https://img.shields.io/badge/Technologies-blue)](https://github.com/KU-5H/My-Website/edit/main/README.md#frontend)
+## Technologies Used [![Technologies](https://img.shields.io/badge/Technologies-blue)](https://github.com/KU-5H/My-Website?tab=readme-ov-file#technologies-used-)
 
 ### Frontend
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -36,7 +36,7 @@ Check out the website here! https://kush-patel-website.vercel.app/
 - `Vite` used to tool the frontend and setup the project
 - Used `Vercel` for deployment of the website
 
-## Installation [![Installation](https://img.shields.io/badge/Installation-purple)](https://github.com/KU-5H/My-Website/edit/main/README.md#installation-)
+## Installation [![Installation](https://img.shields.io/badge/Installation-purple)](https://github.com/KU-5H/My-Website?tab=readme-ov-file#installation-)
 ```bash
 # Clone this repository
 $ git clone https://github.com/KU-5H/My-Website.git
