@@ -24,7 +24,7 @@ const TechStack = () => {
         <div>
           <div
             id="Tech Stack"
-            className="p-4 w-full rounded-lg bg-glass mt-4 flex overflow-hidden"
+            className="p-4 w-full rounded-lg bg-glass mt-8 flex overflow-hidden"
             onMouseEnter={() => handleMouseEnter('Languages and Frameworks I\'ve worked with')}
             onMouseLeave={handleMouseLeave}
           >
@@ -32,7 +32,7 @@ const TechStack = () => {
           </div>
           <div
             id="Tech Stack"
-            className="p-4 w-full rounded-lg bg-glass mt-4 flex overflow-hidden"
+            className="p-4 w-full rounded-lg bg-glass mt-8 flex overflow-hidden"
             onMouseEnter={() => handleMouseEnter('Tools and Technologies I\'ve worked with')}
             onMouseLeave={handleMouseLeave}
           >
