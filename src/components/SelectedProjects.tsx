@@ -30,7 +30,7 @@ const SelectedProjects = ({ images, selectedText, selectedLogos }: SelectedProje
           />
         </div>
       </div>      
-      <div className="relative md:absolute bottom-0 left-0 w-full flex justify-center p-0 md:p-3">
+      <div className="relative md:absolute bottom-0 left-0 w-full flex justify-center p-0 md:p-2.5">
         <a href={selectedLogos.href} target="_blank" rel="noopener noreferrer" className="glass-button glass-button-primary px-4 py-2 text-sm font-semibold text-white no-underline inline-flex items-center justify-center">
           <span className="mr-1.5">🚀</span>
           View Project
