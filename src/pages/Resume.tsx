@@ -10,7 +10,7 @@ const Resume = () => {
         <div className="order-3 md:order-2 md:col-span-1 p-8 rounded-lg bg-glass">
           <h1 className="text-4xl md:text-5xl leading-tight font-bold mb-3">Resume</h1>
           <div className="w-full bg-glass rounded-lg p-2 mb-4">
-            <object data={resumePDF} type="application/pdf" width="100%" height="400"className="rounded-lg">Resume PDF</object>
+            <object data={resumePDF} type="application/pdf" width="100%" height="400" className="rounded-lg">Resume PDF</object>
           </div>          <div className="flex flex-col sm:flex-row justify-center gap-4 sm:space-x-0">
             <a 
               href={resumePDF} 
