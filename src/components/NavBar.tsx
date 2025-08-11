@@ -21,6 +21,9 @@ const NavBar = () => {
         <Link to="/projects" className={`${getLinkClass('/projects')} text-white font-bold font-sans text-2xl`}>
           Projects
         </Link>
+        <Link to="/resume" className={`${getLinkClass('/resume')} text-white font-bold font-sans text-2xl`}>
+          Resume
+        </Link>
         <Link to="/contact" className={`${getLinkClass('/contact')} text-white font-bold font-sans text-2xl`}>
           Contact Me
         </Link>
