@@ -4,11 +4,13 @@ import Home from './pages/Home';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
+import Resume from './pages/Resume';
 
 function App() {
   return (
     <Router>
         <Routes>
+            <Route path="/resume" element={<Resume />} />
             <Route path="/about" element={<AboutMe />} />
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />

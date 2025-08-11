@@ -62,11 +62,9 @@ const Contact = () => {
                 className="mt-1 p-2 block w-full rounded-md bg-glass border text-white focus:ring-2 focus:ring-white focus:border-transparent"
                 rows={4}
               />
-            </div>
-            <button
-              type="submit"
-              className="w-full py-2 px-4 bg-glass rounded-md font-semibold transition duration-300"
-            >
+            </div>            
+            <button type="submit" className="glass-button glass-button-success w-full px-6 py-3 font-bold text-white inline-flex items-center justify-center">
+              <span className="mr-2">📧</span>
               Send Message
             </button>
           </form>

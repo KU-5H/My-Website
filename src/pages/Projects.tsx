@@ -64,7 +64,7 @@ const Projects = () => {
               <span className='hidden md:block'>TextBased-Audio</span>
             </span>
           </div>
-          {renderProjectDetails()}
+            {renderProjectDetails()}
         </div>
         <div className="order-2 md:order-3 flex flex-col items-center">
           <NavBar />
