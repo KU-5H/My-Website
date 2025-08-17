@@ -1,6 +1,6 @@
 import NavBar from '../components/NavBar';
 import ProfilePicture from '../components/ProfileAndLinks';
-import resumePDF from '../assets/Kush Patel - Resume Rev 8.pdf';
+import resumePDF from '../assets/Kush Patel - Resume.pdf';
 
 const Resume = () => {
   return (
