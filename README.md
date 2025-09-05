@@ -14,7 +14,7 @@
 </div>
 
 ## My Website [![Demo](https://img.shields.io/badge/Demo-red)](https://github.com/KU-5H/My-Website?tab=readme-ov-file#my-website-)
-**Check out the website here! https://kush-patel-website.vercel.app/**
+**Check out the website here! https://www.ku5hpatel.me/**
 
 ## Technologies Used [![Technologies](https://img.shields.io/badge/Technologies-blue)](https://github.com/KU-5H/My-Website?tab=readme-ov-file#technologies-used-)
 
